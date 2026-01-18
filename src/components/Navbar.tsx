@@ -51,7 +51,7 @@ const Navbar = () => {
           >
             <span>T</span>
             <Heart className="w-5 h-5 text-wedding-rose" fill="currentColor" />
-            <span>H</span>
+            <span>N</span>
           </a>
 
           {/* Desktop Navigation */}

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "./ui/button";
 import Reveal from "./Reveal";
-import gallery1 from "@/assets/img11.jpg";
+import gallery1 from "@/assets/img12.jpg";
 
 interface TimeLeft {
   days: number;
@@ -19,7 +19,7 @@ const CountdownSection = () => {
   });
 
   useEffect(() => {
-    const weddingDate = new Date("2026-02-07T10:30:00").getTime();
+    const weddingDate = new Date("2026-01-29T11:00:00").getTime();
 
     const updateCountdown = () => {
       const now = new Date().getTime();
@@ -58,10 +58,16 @@ const CountdownSection = () => {
   return (
     <section className="relative py-20 md:py-32 overflow-hidden">
       {/* Background */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"
-        style={{ backgroundImage: `url(${gallery1})` }}
-      />
+      <div className="absolute inset-0 overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105"
+          style={{
+            backgroundImage: `url(${gallery1})`,
+            transform: "translateZ(0)",
+            WebkitTransform: "translateZ(0)",
+          }}
+        />
+      </div>
       <div className="absolute inset-0 bg-hero-overlay" />
 
       {/* Content */}
@@ -80,7 +86,7 @@ const CountdownSection = () => {
 
         <Reveal animation="fade-up" delay={250}>
           <h3 className="font-display text-2xl md:text-3xl mb-4">
-            Đình Tài & Thanh Hải
+            Đình Tạo & Thuý Ngân
           </h3>
         </Reveal>
 
@@ -101,7 +107,7 @@ const CountdownSection = () => {
         </Reveal>
 
         <Reveal animation="fade-up" delay={500}>
-          <p className="font-display text-xl mb-8">Ngày 7 Tháng 2 Dương Lịch 2026 (âm lịch là ngày 20/12/2025)</p>
+          <p className="font-display text-xl mb-8">Ngày 29 Tháng 1 Dương Lịch 2026 (âm lịch là ngày 11/12/2025)</p>
         </Reveal>
 
         {/* Countdown */}

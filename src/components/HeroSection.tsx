@@ -45,14 +45,14 @@ const HeroSection = () => {
           Save the Date
         </p>
 
-        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-light mb-4 text-shadow-lg animate-fade-in" style={{ animationDelay: "0.4s" }}>
-          Đình Tài <span className="font-normal">&</span> Thanh Hải
+        <h1 className="font-display text-4xl md:text-5xl lg:text-5xl font-light mb-4 text-shadow-lg animate-fade-in" style={{ animationDelay: "0.4s" }}>
+          Đình Tạo <span className="font-normal">&</span> Thuý Ngân
         </h1>
 
         <div className="w-24 h-0.5 bg-primary-foreground/60 mx-auto mb-6 animate-fade-in" style={{ animationDelay: "0.6s" }} />
 
         <p className="font-display text-xl md:text-2xl lg:text-3xl mb-8 animate-fade-in" style={{ animationDelay: "0.8s" }}>
-          Ngày 7 Tháng 2 Dương Lịch 2026 (âm lịch là ngày 20/12/2025)
+          Ngày 29 Tháng 1 Dương Lịch 2026 (âm lịch là ngày 11/12/2025)
         </p>
 
         <Button

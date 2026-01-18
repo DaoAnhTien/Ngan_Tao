@@ -3,26 +3,27 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 import { toast } from "@/hooks/use-toast";
 import Reveal from "./Reveal";
-import mbBank from "@/assets/qr1.png";
-import vietcombank from "@/assets/qr2.png";
+import vietinbank from "@/assets/qr2.png";
+import vietcombank from "@/assets/qr1.png";
 
 const bankAccounts = [
 
 
 
+
   {
     title: "Mừng cưới đến chú rể",
-    bank: "Mb Bank",
-    accountName: "PHAM DINH TAI",
-    accountNumber: "0975612434",
+    bank: "VietinBank",
+    accountName: "DAU DINH TAO",
+    accountNumber: "104879140363",
     role: "groom",
-    qrCode: mbBank,
+    qrCode: vietinbank,
   },
   {
     title: "Mừng cưới đến cô dâu",
     bank: "Vietcombank",
-    accountName: "PHAN THI THANH HAI",
-    accountNumber: "1014325606",
+    accountName: "PHAM THI THUY NGAN",
+    accountNumber: "1038714930",
     role: "bride",
     qrCode: vietcombank,
   },

@@ -14,6 +14,9 @@ import gallery10 from "@/assets/img10.jpg";
 import gallery11 from "@/assets/img11.jpg";
 import gallery12 from "@/assets/img12.jpg";
 
+import gallery13 from "@/assets/img13.jpg";
+import gallery14 from "@/assets/img14.jpg";
+
 const images = [
   { src: gallery1, alt: "Ảnh cưới 1", caption: "Khoảnh khắc đáng nhớ", size: "large" },
   { src: gallery2, alt: "Ảnh cưới 2", caption: "Tình yêu bất tận", size: "small" },
@@ -27,6 +30,8 @@ const images = [
   { src: gallery10, alt: "Ảnh cưới 10", caption: "Ngày trọng đại", size: "medium" },
   { src: gallery11, alt: "Ảnh cưới 11", caption: "Kỷ niệm đẹp", size: "small" },
   { src: gallery12, alt: "Ảnh cưới 12", caption: "Yêu thương vô bờ", size: "large" },
+  { src: gallery13, alt: "Ảnh cưới 13", caption: "Trọn đời bên nhau", size: "medium" },
+  { src: gallery14, alt: "Ảnh cưới 14", caption: "Hạnh phúc trọn vẹn", size: "small" },
 ];
 
 const GallerySection = () => {

@@ -43,7 +43,7 @@ const CoupleSection = () => {
 
                 <img
                   src={groomImage}
-                  alt="Chú rể - Đình Tài"
+                  alt="Chú rể - Đình Tạo"
                   className="
                     w-full h-full object-cover rounded-full
                     border-4 border-white
@@ -60,7 +60,7 @@ const CoupleSection = () => {
               </div>
 
               <h3 className="font-display text-2xl md:text-3xl text-foreground mb-1">
-                Đình Tài
+                Đình Tạo
               </h3>
 
               <p className="font-body text-primary text-sm tracking-wider uppercase mb-2">
@@ -100,7 +100,7 @@ const CoupleSection = () => {
 
                 <img
                   src={brideImage}
-                  alt="Cô dâu - Thanh Hải"
+                  alt="Cô dâu - Thuý Ngân"
                   className="
                     w-full h-full object-cover rounded-full
                     border-4 border-white
@@ -117,7 +117,7 @@ const CoupleSection = () => {
               </div>
 
               <h3 className="font-display text-2xl md:text-3xl text-foreground mb-1">
-                Thanh Hải
+                Thuý Ngân
               </h3>
 
               <p className="font-body text-wedding-rose text-sm tracking-wider uppercase mb-2">
@@ -131,7 +131,7 @@ const CoupleSection = () => {
         <Reveal animation="fade-up" delay={200}>
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-display text-3xl md:text-4xl text-foreground mb-6">
-              Đình Tài & Thanh Hải
+              Đình Tạo & Thuý Ngân
             </h2>
 
             <p className="font-body text-muted-foreground leading-relaxed mb-6">
@@ -142,7 +142,7 @@ const CoupleSection = () => {
             </p>
 
             <p className="font-display text-xl text-primary italic">
-              Đình Tài & Thanh Hải
+              Đình Tạo & Thuý Ngân
             </p>
           </div>
         </Reveal>

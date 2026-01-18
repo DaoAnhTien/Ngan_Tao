@@ -5,20 +5,20 @@ import venueImage from "@/assets/venue.jpg";
 
 const events = [
   {
-    title: "LỄ CƯỚI NHÀ GÁI",
-    date: "Lễ vu quy, Ngày 19/12 âm lịch (tức là ngày 6/2 dương lịch)",
-    time: "Vào hồi 11h",
+    title: "LỄ Vu Quy",
+    date: "Ngày 28/1 Dương Lịch 2026 (âm lịch là ngày 10/12/2025)",
+    time: "Vào lúc 10h00",
     venue: "Nhà gái",
-    address: "thôn Tân Phú, xã Hương xuân, tỉnh Hà Tĩnh",
-    mapLink: "https://www.google.com/maps?q=18.14342498779297,105.70246887207031&z=14&t=m&mapclient=embed",
+    address: "Xóm 10 Tân Hợp, xã Hương Bình (Hòa Hải cũ - Hương Khê), tỉnh Hà Tĩnh",
+    mapLink: "https://www.google.com/maps?q=18.246137,105.618309&z=14&t=m&mapclient=embed",
   },
   {
-    title: "LỄ CƯỚI NHÀ TRAI",
-    date: "Lễ thành hôn vào ngày 20/12 âm lịch (tức là ngày 7/2 dương lịch)",
-    time: "vào lúc 10h30",
+    title: "LỄ Thành Hôn",
+    date: "Ngày 29/1 Dương Lịch 2026 (âm lịch là ngày 11/12/2025)",
+    time: "Vào lúc 11h00",
     venue: "Nhà trai",
-    address: "thôn 10 Tân Hợp, xã Hương Bình (Hòa Hải cũ - Hương Khê), tỉnh Hà Tĩnh",
-    mapLink: "https://www.google.com/maps?q=18.24672508239746,105.6162338256836&z=14&t=m&mapclient=embed",
+    address: "Xóm 8 Chợ Nổ, xã Hương Bình (Hòa Hải cũ - Hương Khê), tỉnh Hà Tĩnh",
+    mapLink: "https://www.google.com/maps?q=18.264833,105.621687&z=14&t=m&mapclient=embed",
   },
 ];
 
@@ -86,16 +86,6 @@ const EventsSection = () => {
                   </div>
 
                   <div className="flex gap-3">
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className="flex-1 font-body hover:scale-105 transition-transform"
-                      onClick={() => {
-                        alert("Tính năng thêm vào lịch sẽ được cập nhật!");
-                      }}
-                    >
-                      Thêm vào lịch
-                    </Button>
                     <Button
                       size="sm"
                       className="flex-1 font-body bg-primary hover:bg-primary/90 hover:scale-105 transition-transform"
